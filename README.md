@@ -12,7 +12,7 @@ Test plan: the conventional 80/20 rule , 20 used to train and 80 used to test. I
 
 
 #Midterm Report
-
+Video: https://youtu.be/cS1QTEnaUog 
 #1 Understanding Dataset and Variables
 I initially started this entire process by trying to understand the data I was given and the variables I was working with. I believe there are around 500 variables, and since this was a survey where participants were asked questions before giving their responses in a quantitative way, I wanted to ensure I had an in-depth understanding of the survey. I went through the codebook and first looked at all the variables and their categorizations. I created a document to organize this information, where I categorized the variables into different themes and noted what each variable represented. The categories that variables can fall under as of now are Mood, Physical Health, Interpersonal Support/Strain, Daily Stressors, Emotion Work, Intimacy, Interactions with Spouse, Personal Control, Satisfaction & Happiness, and Previous Adversity. Some variables can also overlap.
 Data Cleaning and Handling Nulls
