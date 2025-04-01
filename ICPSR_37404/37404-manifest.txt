@@ -1,0 +1,92 @@
+File Manifest for ICPSR 37404
+
+Umberson, Debra. Health and Relationships Project, United States, 2014-
+2015. ICPSR37404-v2. Ann Arbor, MI: Inter-university Consortium for
+Political and Social Research [distributor], 2022-01-04.
+http://doi.org/10.3886/ICPSR37404.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37404-descriptioncitation.pdf       -       -         -       2022-01-04  -
+
+    37404-related_literature.txt        -       -         -       daily       -
+
+    37404-manifest.txt                  -       -         -       daily       -
+
+    37404-Documentation.pdf             -       -         -       2019-09-17  e2d8a419f490bacd6dcecc8a9c73b784
+
+
+DS0001 Baseline Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37404-0001-Codebook-ICPSR.pdf       -       -         -       2022-01-04  4e2a6c58d01158fe8cadcd5377a0bf31
+
+    37404-0001-Codebook-PI.pdf          -       -         -       2019-09-17  c715d55e4c835f526e74fd73f708cbf4
+
+    37404-0001-Data.dta                 -       838       395     2022-01-04  24ea673918427806fd53e41add4b88be
+
+    37404-0001-Data.rda                 -       838       395     2022-01-04  18f8e24f6637ff536954f560a8a156b2
+
+    37404-0001-Data.sav                 -       838       395     2022-01-04  eb0bba410497cb30cadb8c51fd76d84e
+
+    37404-0001-Data.stc                 -       838       395     2022-01-04  9cf1b1e76e2581e77755fc9007ac0810
+
+    37404-0001-Data.tsv                 -       838       395     2022-01-04  9e36130b79d7e9c288f72403db83368f
+
+    37404-0001-Data.txt                 1110    838       395     2022-01-04  53138e6d87f6e68a7dd91e4126acdcc1
+
+    37404-0001-Questionnaire.pdf        -       -         -       2019-09-17  0c09158ee958d7e59ade6da21ef5d5f5
+
+    37404-0001-Setup.dct                -       -         -       2022-01-04  f923bf34fce312ee026371b966f39842
+
+    37404-0001-Setup.do                 -       -         -       2022-01-04  c4fd7d5e7a45ee63ce9886ea70726547
+
+    37404-0001-Setup.sas                -       -         -       2022-01-04  e6417f7cb8b1c1054337c1654fb8644c
+
+    37404-0001-Setup.sps                -       -         -       2022-01-04  2a5ff005febd48309c1c674391757100
+
+
+DS0002 Diary Merged With Baseline Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37404-0002-Codebook-ICPSR.pdf       -       -         -       2022-01-04  1c5fe86d2417002d1fd373e9175d1ea9
+
+    37404-0002-Codebook-PI.pdf          -       -         -       2019-09-17  25c9087d1a3b4a05c4a97734681e6f68
+
+    37404-0002-Data.dta                 -       7,396     500     2022-01-04  4d9f41ab871b8398ad9571f8af456179
+
+    37404-0002-Data.rda                 -       7,396     500     2022-01-04  d5fa56310c64b930c37fec221ca38876
+
+    37404-0002-Data.sav                 -       7,396     500     2022-01-04  d6da3777d884568b4a5af852f9fd1bd5
+
+    37404-0002-Data.stc                 -       7,396     500     2022-01-04  cc8ff7d5991c2c01fe60ca63a7975b51
+
+    37404-0002-Data.tsv                 -       7,396     500     2022-01-04  278443d5d4d230430ad6bf9299991d46
+
+    37404-0002-Data.txt                 1375    7,396     500     2022-01-04  ae7e4e02670627a45cd07cc735ffed3e
+
+    37404-0002-Questionnaire.pdf        -       -         -       2019-09-17  f6d0f2e65a88066a6fbef207106d85f0
+
+    37404-0002-Setup.dct                -       -         -       2022-01-04  89800858d85a98e51eac8e998f808ae2
+
+    37404-0002-Setup.do                 -       -         -       2022-01-04  24f739f2350b92897ea2953500922d9d
+
+    37404-0002-Setup.sas                -       -         -       2022-01-04  f1a646eeafd67c051f8209f0b6f8fa62
+
+    37404-0002-Setup.sps                -       -         -       2022-01-04  ac3e1f6b92bd3e12914f711bdc57929a
+
+
+Version History
+
+2022-01-04 This study has been updated to unmask the variable VIGEXMIN.
+Seven variables in the Baseline Data were also omitted in this update.

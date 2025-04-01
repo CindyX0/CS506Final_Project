@@ -1,0 +1,225 @@
+Bibliography
+Health and Relationships Project, United States, 2014-2015
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 37404. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Akbari, Sina; Jamshidi, Fateme; Mokhtarian, Ehsan; Vowels, Matthew J.;
+Etesami, Jalal; Kiyavash, Negar, "Causal Effect Identification in Uncertain
+Causal Networks." Preprint. arXiv, Oct 27, 2023.. DOI:
+10.48550/arXiv.2208.04627
+
+2. Akbari, Sina; Jamshidi, Fateme; Mokhtarian, Ehsan; Vowels, Matthew
+James; Etesami, Jalal; Kiyavash, Negar, "Causal Effect Identification in
+Uncertain Causal Networks." Presented at the 37th Conference on Neural
+Information Processing Systems (NeurIPS 2023), Neural Information
+Processing Systems Foundation, New Orleans, LA, Dec 10-16, 2023.
+Abstract: https://openreview.net/forum?id=pH4Fv7C3yC
+
+3. Behler, Rachel; Donnelly, Rachel; Umberson, Debra, "Psychological
+distress transmission in same-sex and different-sex marriages." Journal of
+Health and Social Behavior. 2019, 60, (1), 18 - 35. DOI:
+10.1177/0022146518813097 R21AG044585
+Abstract: https://openreview.net/forum?id=pH4Fv7C3yC
+
+4. Chai, Hye Won; Joo, Susanna; Lee, Jihye; Umberson, Debra, "Sexual
+Motives, Marital Quality, and Depressive Symptoms of Mid-life Same- and
+Different-sex Couples." Presented at the Gerontological Society of America
+(GSA) 2023 Annual Scientific Meeting, Gerontological Society of America
+(GSA), Tampa, FL, Nov 8-12, 2023. DOI: 10.1093/geroni/igad104.1712
+Abstract: https://openreview.net/forum?id=pH4Fv7C3yC
+
+5. Chai, Hye Won; Mernitz, Sara E.; Umberson, Debra J., "Sexual motives,
+stress, and depressive symptoms among midlife different-sex and same-sex
+couples." Gerontologist. Mar 2023, 63, (2), 261 - 273. DOI:
+10.1093/geront/gnac136
+Abstract: https://openreview.net/forum?id=pH4Fv7C3yC
+
+6. Coan, Melissa Ellen, "The Role of Dyadic Coping in the Association
+Between Daily Hassles and Relationship Satisfaction." Dissertation,
+University of Akron, 2020.
+Abstract: http://rave.ohiolink.edu/etdc/view?acc_num=akron1606133454333452
+
+7. Cohen, Lauren, "Spousal Support and Depression in LGBQ+ Older Adults."
+Dissertation, Yeshiva University, 2022.
+Full text: https://www.proquest.com/docview/2838884309?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses#
+
+8. Donnelly, Rachel; Reczek, Corinne; Umberson, Debra, "What we know (and
+don't know) about the bereavement experiences of same-sex spouses." In
+Goldberg, Abbie E.; Romero, Adam P., LGBTQ Divorce and Relationship
+Dissolution: Psychological and Legal Perspectives and Implications for
+Practice. Oxford University Press,2018. DOI: 10.1093/med-
+psych/9780190635176.003.0007
+Full text: https://www.proquest.com/docview/2838884309?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses#
+
+9. Donnelly, Rachel; Robinson, Brandon A.; Umberson, Debra, "Can spouses
+buffer the impact of discrimination on depressive symptoms? An examination
+of same-sex and different-sex marriages." Society and Mental Health. 2019,
+9, (2), 192 - 210. DOI: 10.1177/2156869318800157 R21AG044585
+Full text: https://www.proquest.com/docview/2838884309?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses#
+
+10. Donnelly, Rachel; Umberson, Debra; Kroeger, Rhiannon A., "Childhood
+adversity, daily stress, and marital strain in same-sex and different-sex
+marriages." Journal of Family Issues. 2018, 39, (7), 2085 - 2106. DOI:
+10.1177/0192513X17741177 P2CHD042849; T32HD007081; F32HD072616
+Full text: https://www.proquest.com/docview/2838884309?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses#
+
+11. Forster, Anna K., "In Good Times and Bad: Associations of Partners'
+Positive Affect with Wives' Physical Activity - A Population Average
+Model." Dissertation, Purdue University, 2022.
+Abstract: https://docs.lib.purdue.edu/dissertations/AAI30506282/
+
+12. Forster, Anna K.; Richards, Elizabeth A.; Franks, Melissa M.; Foli,
+Karen J.; Hass, Zachary, "Positive affect and physical activity
+associations in women and their spouses." Western Journal of Nursing
+Research. Apr 2024, 46, (4), 278 - 287. DOI: 10.1177/01939459241233860
+Abstract: https://docs.lib.purdue.edu/dissertations/AAI30506282/
+
+13. Garcia, Michael A.; Umberson, Debra, "Marital strain and psychological
+distress in same-sex and different-sex couples." Journal of Marriage and
+Family. Oct 2019, 81, (5), 1253 - 1268. DOI: 10.1111/jomf.12582
+P2CHD042849; T32HD007081; R21AG044585
+Abstract: https://docs.lib.purdue.edu/dissertations/AAI30506282/
+
+14. Garcia, Michael; Donnelly, Rachel; Umberson, Debra, "Exposure and
+Emotional Reactivity to Daily Stress in Same-Sex and Different-Sex
+Marriages." Presented at the Gerontological Society of America (GSA) 2019
+Annual Scientific Meeting, Gerontological Society of America (GSA), Austin,
+TX, Nov 13-18, 2019. DOI: 10.1093/geroni/igz038.2935
+Abstract: https://docs.lib.purdue.edu/dissertations/AAI30506282/
+
+15. Goldstein-Kral, Jessica Caryn, "Transgender Theory, Queer Measurements,
+Cisgender: Gender Perception Discordance and Marital Quality amongst
+Cisgender Couples." Thesis, University of Texas at Austin, 2018.
+Abstract: https://repositories.lib.utexas.edu/handle/2152/72759
+
+16. Holway, Giuseppina Valle; Umberson, Debra; Donnelly, Rachel, "Health
+and health behavior concordance between spouses in same-sex and different-
+sex marriages." Social Currents. Aug 2018, 5, (4), 319 - 327. DOI:
+10.1177/2329496517734570 R21AG044585
+Abstract: https://repositories.lib.utexas.edu/handle/2152/72759
+
+17. Houde, Irene R., "Differences in Emotional Intimate Partner Violence
+and Relationship Satisfaction Among Same-Sex and Different-Sex Couples."
+Thesis, Boston College, 2023.
+Abstract: http://hdl.handle.net/2345/bc-ir:109649
+Full text: https://www.proquest.com/docview/2798941546?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses#
+
+18. Joo, Susanna; Chai, Hye Won; Lee, Jihye; Kim, Hyoun K.; Umberson,
+Debra, "Empathic Response and Marital Quality for Same- and Different-Sex
+Midlife Couples: Mediating Role of Dyadic Coping [poster]." Presented at
+the Gerontological Society of America (GSA) 2022 Annual Scientific Meeting,
+Gerontological Society of America (GSA), Indianapolis, IN, Nov 2-6, 2022.
+DOI: 10.1093/geroni/igac059.3058
+Abstract: http://hdl.handle.net/2345/bc-ir:109649
+Full text: https://www.proquest.com/docview/2798941546?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses#
+
+19. Mernitz, Sara; Pollitt, Amanda; Umberson, Debra, "Same-sex marriage and
+mental health: The role of marital quality." In Liu, Hui; Reczek, Corinne;
+Wilkinson, Lindsey, Marriage and Health: The Well-Being of Same-Sex
+Couples. Politics of Marriage and Gender: Global Issues in Local Contexts.
+216 - 228, Rutgers University Press,2020. DOI: 10.2307/j.ctv128fqjw.20
+Abstract: http://hdl.handle.net/2345/bc-ir:109649
+Full text: https://www.proquest.com/docview/2798941546?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses#
+
+20. Mernitz, Sara; Pollitt, Amanda; Umberson, Debra J., "Same-Sex Marriage
+and Mental Health: The Role of Marital Quality." Presented at the
+Population Association of America 2019 Annual Meeting, Population
+Association of America (PAA), Austin, TX, Apr 10-13, 2019.
+Full text PDF: http://paa2019.populationassociation.org/uploads/191780
+
+21. Pollitt, Amanda M.; Donnelly, Rachel; Mernitz, Sara E.; Umberson,
+Debra, "Differences in how spouses influence each other's alcohol use in
+same- and different-sex marriages: A daily diary study." Social Science and
+Medicine. Nov 2020, 264, (113398),. DOI: 10.1016/j.socscimed.2020.113398
+Full text PDF: http://paa2019.populationassociation.org/uploads/191780
+
+22. Pollitt, Amanda M.; Robinson, Brandon A.; Umberson, Debra, "Gender
+conformity, perceptions of shared power, and marital quality in same- and
+different-sex marriages." Gender and Society. 2018, 32, (1), 109 - 131.
+DOI: 10.1177/0891243217742110 R21AG044585
+Full text PDF: http://paa2019.populationassociation.org/uploads/191780
+
+23. Pollitt, Amanda M.; Robinson, Brandon A.; Umberson, Debra, "Perceptions
+of Shared Power, Gender Conformity, and Marital Quality in Same- and
+Different-Sex Marriages." PRC Research and Policy Brief Series. Austin, TX:
+Population Research Center, The University of Texas at Austin, Dec 2017.
+R21AG044585
+Full text: https://liberalarts.utexas.edu/prc/research/research-brief-series/2017-research-briefs/pollitt-gender-conformity.php
+
+24. Ray, Joey, "Childhood Sexual and Physical Abuse: Examining the Long-
+Term Effects in Adulthood and How They Impact Adult Intimate
+Relationships." Thesis, California State University, Sacramento, 2021.
+Full text: https://liberalarts.utexas.edu/prc/research/research-brief-series/2017-research-briefs/pollitt-gender-conformity.php
+
+25. Thomeer, Mieke Beth; Pollitt, Amanda M.; Umberson, Debra, "Support in
+response to a spouse's distress: Comparing women and men in same-sex and
+different-sex marriages." Journal of Social and Personal Relationships. May
+2021, 38, (5), 1513 - 1534. DOI: 10.1177/0265407521998453
+Full text: https://liberalarts.utexas.edu/prc/research/research-brief-series/2017-research-briefs/pollitt-gender-conformity.php
+
+26. Thomeer, Mieke; Pollitt, Amanda; Umberson, Debra, "Support in Response
+to a Spouse's Distress: Comparing Women and Men in Same-Sex and Different-
+Sex Marriages." SocArXiv Papers, Preprint. Feb 9, 2021.. DOI:
+10.31235/osf.io/be82v
+Full text: https://liberalarts.utexas.edu/prc/research/research-brief-series/2017-research-briefs/pollitt-gender-conformity.php
+
+27. Umberson, Debra; Donnelly, Rachel; Pollitt, Amanda, "How Spouses
+Influence Each Other’s Health Habits in Same-Sex Compared to Different-Sex
+Marriages." PRC Research and Policy Brief Series. Austin, TX: Population
+Research Center, The University of Texas at Austin, Aug 2018. DOI:
+10.15781/T2X63BQ44 R21AG044585
+Abstract: https://repositories.lib.utexas.edu/handle/2152/68209
+
+28. Umberson, Debra; Donnelly, Rachel; Pollitt, Amanda M., "Marriage,
+social control, and health behavior: A dyadic analysis of same-sex and
+different-sex couples." Journal of Health Social Behavior. 2018, 59, (3),
+429 - 446. DOI: 10.1177/0022146518790560 R21AG044585
+Abstract: https://repositories.lib.utexas.edu/handle/2152/68209
+
+29. Umberson, Debra; Thomeer, Mieke Beth; Kroeger, Rhiannon A.; Reczek,
+Corinne; Donnelly, Rachel, "Instrumental- and emotion-focused care work
+during physical health events: Comparing gay, lesbian, and heterosexual
+marriages." Journals of Gerontology, Series B: Psychological Sciences and
+Social Sciences. May 2017, 72, (3), 498 - 509. DOI: 10.1093/geronb/gbw133
+R01-AG17455; 5 R24 HD042849; F32 HD072616
+Abstract: https://repositories.lib.utexas.edu/handle/2152/68209
+
+30. Umberson, Debra; Thomeer, Mieke Beth; Pollitt, Amanda M.; Mernitz, Sara
+E., "The psychological toll of emotion work in same-sex and different-sex
+marital dyads." Journal of Marriage and Family. Aug 2020, 82, (4), 1141 -
+1158. DOI: 10.1111/jomf.12686 R21AG044585
+Abstract: https://repositories.lib.utexas.edu/handle/2152/68209
+
+31. Umberson, Debra; Thomeer, Mieke Beth; Reczek, Corinne; Donnelly,
+Rachel; Kroeger, Rhiannon A., "Do Gay, Lesbian, and Heterosexual Spouses
+Differ in the Ways They Care for Each Other During Physical Illness?." PRC
+Research and Policy Brief Series. Austin, TX: Population Research Center,
+The University of Texas at Austin, Mar 2017. DOI: 10.15781/T2VQ2SG4J
+R21AG044585
+Abstract: https://repositories.lib.utexas.edu/handle/2152/62423
+
+32. Vowels, Matthew J., "A Causal Research Pipeline and Tutorial for
+Psychologists and Social Scientists." arXiv, Preprint. Jun 24, 2022.. DOI:
+10.48550/arXiv.2206.05175
+Abstract: https://repositories.lib.utexas.edu/handle/2152/62423
+
+33. Wang, Yiwen, "Daily Stress, Dyadic Coping, and Cognitive Functions in
+Midlife Same- and Different-Sex Marriages." Presented at the Gerontological
+Society of America (GSA) 2022 Annual Scientific Meeting, Gerontological
+Society of America (GSA), Indianapolis, IN, Nov 2-6, 2022. DOI:
+10.1093/geroni/igac059.2074
+Abstract: https://repositories.lib.utexas.edu/handle/2152/62423
+
+34. Wang, Yiwen; Umberson, Debra, "Dyadic coping and marital quality in
+same-sex and different-sex marriages." Journal of Social and Personal
+Relationships. Mar 2023, 40, (3), 996 - 1017. DOI:
+10.1177/02654075221123096
+Abstract: https://repositories.lib.utexas.edu/handle/2152/62423
