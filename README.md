@@ -114,8 +114,7 @@ Visualization #1: Relationship Satisfaction Accross Stress Types
 
 Visualization #2 Relationship Satisfaction by Perceptions of Relationship Quality
 
-
-![Visualization of Relationship Satisfaction by Perceptions of Relationship Quality ](<Visualizations/Visualization #1- Relationship Satisfaction Accross Stress Types .png>)
+![Visualization of Relationship Satisfaction by Perceptions of Relationship Quality](Visualizations/Visualization2.png)
 
 This line chart shows how different aspects of relationship quality relate to overall relationship satisfaction. In general, when people rate their relationships more positively like feeling loved, being able to confide in their partner, or thinking the relationship is rewarding, their satisfaction is higher. Most lines move upward as the response level increases, showing a strong link between better relationship experiences and greater satisfaction. This suggests that feeling supported and emotionally connected in a relationship strongly boosts satisfaction.
  
