@@ -1,11 +1,23 @@
-# Makefile for setting up the Python project
 
+VENV_DIR = venv
+PYTHON = $(VENV_DIR)/bin/python
+PIP = $(VENV_DIR)/bin/pip
+NOTEBOOK = finalizedproject.ipynb
+
+# Create virtual environment and install dependencies
 setup:
-	python3 -m venv venv
-	. venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt
+	python3 -m venv $(VENV_DIR)
+	$(PIP) install --upgrade pip
+	$(PIP) install -r requirements.txt
 
+# Run Jupyter Notebook
 run:
-	. venv/bin/activate && jupyter notebook finalizedproject.ipynb
+	$(PYTHON) -m notebook $(NOTEBOOK)
 
+# Freeze current dependencies into requirements.txt
 freeze:
-	. venv/bin/activate && pip freeze > requirements.txt
+	$(PIP) freeze > requirements.txt
+
+# Remove the virtual environment
+clean:
+	rm -rf $(VENV_DIR)
