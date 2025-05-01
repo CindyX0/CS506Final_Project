@@ -104,6 +104,70 @@ These early visuals provided useful context and helped clarify which variables m
 
 There are  4 classical models that were created, I will walk through how each model was created in detail and the visualizations for each model
 
+**Model #1: Predicting Satisfaction, Happiness, and Rewardingness values in Relationships and  Visualizations**
+
+Process:
+
+This model predicts  three key relationship satisfaction scores: RELSATIS, RELHAPPY, and RELREWAR using a Random Forest classifier. First, the features (behaviors) are separated from the target variables. Missing values in the features are filled using the mean, while missing values in the targets are filled using the most frequent value, since the targets are categorical. The data is then split into training and test sets.
+
+To improve model performance, hyperparameter tuning is done using GridSearchCV. The tuning is guided by precision score, meaning the model was optimized to make as few false positives( predicting low rel as high) as possible since there are more positievly scored relationships than negative ones in the data. The best parameters from this grid search are used to build a MultiOutputClassifier, which allows the Random Forest to predict multiple targets at once.
+
+The primary evaluation tools included precision, accuracy, Mean Squared Error (MSE), and R-squared .
+
+Precision and Accuracy Scores:
+
+From the classification report, the model showed solid precision and accuracy for all three satisfaction outcomes
+
+The model demonstrated strong performance across all three target variables: relationship satisfaction (RELSATIS), relationship happiness (RELHAPPY), and relationship reward (RELREWAR). For RELSATIS, the model achieved a high precision of 0.99 and an accuracy of 98.4%, showing its ability to consistently make correct predictions across different satisfaction levels. Similarly, for RELREWAR, the model maintained a high level of performance with a precision of 0.99 and accuracy of 97.8%. The performance for RELHAPPY, while still strong, was slightly lower, with a precision of 0.98 and an accuracy of 95.1%.
+
+Cross-Validation Results:
+To validate the model’s consistency and generalizability, 5-fold cross-validation was applied to each satisfaction metric. The average precision scores across folds were:
+
+RELSATIS: ~0.62
+
+RELHAPPY: ~0.58
+
+RELREWAR: ~0.62
+
+
+After training the model, its performance is evaluated for each satisfaction variable using accuracy and a classification report. Finally, the most important features  used in making predictions are extracted and the top 30 are visualized using a bar plot.
+
+**Top contributing Features Visualization**
+
+![alt text](<Visualizations/Model 1 Visualizations/topcontributingfeaturespng.png>)
+
+
+Analysis: Behaviors like your spouse being lovign and caring, feeling like you can confide in your relationship, stress level with your spose, sex satisfaciton, and argument frequncy shed insight int predicitng these targets
+
+
+**Model Residuals Visualization**
+
+Happiness Prediction Residuals
+
+![alt text](<Visualizations/Model 1 Visualizations/model1residualhappiness.png>)
+
+
+Rewardingness  Prediction Residuals
+
+![alt text](<Visualizations/Model 1 Visualizations/model1residualreward.png>)
+ 
+
+Satisfaction Prediction Residuals
+  ![alt text](<Visualizations/Model 1 Visualizations/model1residualsatisfaction.png>)
+
+
+These residuals show how close the models  predicitons and actual resilts were.
+
+
+
+
+
+
+
+
+
+
+
 
 **Visualizations and Analysis** 
 
@@ -191,6 +255,7 @@ This method allowed for a more balanced distribution of individuals into the thr
 
 **4. UMAP Projection Interactive: High v Low Relationships accross Features**
  (link to html in folders)
+ Low Relationship points have been surrounded with a red ring for identification
 
  Critiquing Souse
 
