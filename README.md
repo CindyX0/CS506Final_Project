@@ -102,15 +102,10 @@ These early visuals provided useful context and helped clarify which variables m
 
 **Model Creation and Proccess**
 
-There are  4 classical models that were created, I will walk through how each model was created in detail.
+There are  4 classical models that were created, I will walk through how each model was created in detail and the visualizations for each model
 
 
-
-
-
-
-
-**Final Visualizations and Analysis** 
+**Visualizations and Analysis** 
 
 (each visualization, interactive visualization, and gif can be found in the visualization folder)
 
@@ -151,7 +146,45 @@ This chart highlights a clear and consistent trend: as individuals report a high
 
 **Interactive Visualizations**
 
+**Intercative Visualization #1:  Vulnerablity Status accross Various Adversities**
+
 ![Vulnerability Status accorss Various Adversities](Visualizations/Interactives/videoofvuln-ezgif.com-video-to-gif-converter.gif)
+
+This visual is suppoused to shed light on the proportions of hi, low, and meduim vulnearble coded people in relationshhips. It's supposued to see if previous adverse experiences affected people's vunlenerabliites in relationships. We can see the trends in the vulnerabilty groups for people have expereicned or havent.
+
+Process: 
+
+The process of calculating low, medium, and high vulnerability status is based on responses to five relationship related variables: RELCONFI (ability to  confide in relationship ), SPLISTEN (partner listening), RSHWNEED (respondent shows needs in replationship), RKPFEEL (respondent keeps feleins to self ), and RCHANGE (respondent changes themeseves for partner ). Then, the median of each variable was calculated to serve as a benchmark for categorizing vulnerability levels. Variables were grouped into two types: positively oriented (where higher scores indicate better relationship functioning: RELCONFI, SPLISTEN, RSHWNEED) and negatively oriented (where lower scores are better: RKPFEEL, RCHANGE).
+A person was classified as having low vulnerability if they scored better than or equal to the median on all positive variables and lower than or equal to the median on all negative ones. Conversely, a person was classified as high vulnerability if they scored worse than or equal to the median on all positive variables and higher than or equal to the median on all negative ones. Anyone who didn’t clearly fit into the high or low group was categorized as medium vulnerability.
+This method allowed for a more balanced distribution of individuals into the three vulnerability levels based on their responses relative to the group median, rather than rigid cutoffs.
+
+
+**Visualizations for High v Low Relationships**
+
+
+**1. 2d PCA Projcetion of High v Low Relationships**
+
+
+
+**2. 3d PCA Projection of High v Low Relationships**
+
+
+**3. UMAP Projection of High v Low Relationships (2d, 3d, animation)**
+
+
+
+**4. UMAP Projection Interactive: High v Low Relationships accross Features**
+ (link to html in folders)
+
+
+
+Process:
+
+
+
+
+
+
 
 
 
