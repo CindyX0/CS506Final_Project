@@ -58,33 +58,41 @@ Future Work
 This round primarily focused on traits and behaviors that lead to successful relationships. However, I definitely plan to explore the inverse—factors that contribute to relationship dissatisfaction.
 
 ---------------------------------------------------------------
-### Final Report
+# Final Report
 
 **Reproducability**
 
-1 download the dataset named '2Data.csv'
-2 'make setup' to create the virtual environment and installl depenednncies
-3 'make run' to install the project notebbok
-4 make freeze- if you want to modify the environment and epdate the requirements.txt
+1. download the dataset named '2Data.csv'
+
+2. run in terminal 'make setup' to create the virtual environment and installl depenednncies
+
+3. run 'make run' to install the project notebook
+
+4. run 'make freeze'- if you want to modify the environment and update the requirements.txt
 
 
 
 **Overall Data Cleaning & Preprocessing**
 
+
+
 **1. Overall Data Cleaning & Preprocessing**
 
 1 To begin, I conducted a thorough cleaning of the dataset and reviewed its basic structure, including the number of rows and columns. While the dataset did not contain standard null values initially, it included placeholder entries such as "MASKED BY ICPSR"   used to protect participant privacy. I treated these entries as nulls to ensure proper data handling. Next, I verified that all input values were numeric, converting any non-numeric values (e.g., strings or symbols) to nulls where appropriate. I also removed any anomalous or unexpected values that interfered with subsequent analysis and modeling functions.
- I chose not to drop rows with missing values. Many of the nulls appeared in columns unrelated to the core variables I was analyzing, and dropping them would have resulted in the loss of nearly all the data. Instead, I preserved these rows and focused only on relevant variables during specific analyses.
+I chose not to drop rows with missing values. Many of the nulls appeared in columns unrelated to the core variables I was analyzing, and dropping them would have resulted in the loss of nearly all the data. Instead, I preserved these rows and focused only on relevant variables during specific analyses.
 
 
 **2. Initial Understanding of Data & Scaling Data Down**
+
 A significant portion of time was dedicated to carefully reviewing the dataset’s codebook. I flagged variables based on different categories (emotional, relational, behavioral, health-related) to better understand the structure and potential relevance of each. This process was essential for building a foundational understanding of the dataset and navigating the variables. It helped me grasp the significance and scale of various variables, which directly influenced the kinds of models, comparisons, and visualizations I was able to develop later. This step ensured that my analysis was both meaningful and grounded in the data’s context.
 Given the large number of variables, I needed to scale the dataset down for both computational efficiency and interpretability. I selected a targeted subset of features that were relevant to my research questions and modeling goals. This reduction allowed for a more focused analysis without overwhelming the models with noise or redundancy, while still preserving key behavioral, relational, and health-related traits.
 
 **3. Checking for Correlative Relationships**
+
 Given the large number of variables, I conducted an exploratory correlation analysis to identify which features might hold meaningful relationships. I hypothesized that more strongly correlated variables would be particularly important and could guide the development of relevant research questions. To begin, I created both a Pearson correlation matrix for detecting linear relationships and a Spearman correlation matrix to capture potential nonlinear trends. The initial output was difficult to interpret due to the density of variables, so I applied a correlation threshold of 0.5 to highlight only moderate to strong relationships. This filtering made the results more interpretable and allowed me to focus on patterns that stood out. I then exported these filtered correlations for further analysis and comparison with later model results
 
 **4.  Exploratory Data Analysis**
+
 In this stage, I aimed to visually explore potential relationships and patterns among key variables. I created a series of initial visualizations to better understand the data and identify trends that might support or inspire deeper analysis.
 These visualizations included:
 -Box plots illustrating how relationship satisfaction varied across different stress profiles.
@@ -93,6 +101,7 @@ These visualizations included:
 These early visuals provided useful context and helped clarify which variables might be worth investigating more rigorously in the modeling phase.
 
 **Model Creation and Proccess**
+
 There are  4 classical models that were created, I will walk through how each model was created in detail.
 
 
@@ -102,6 +111,7 @@ There are  4 classical models that were created, I will walk through how each mo
 
 
 **Final Visualizations and Analysis** 
+
 (each visualization, interactive visualization, and gif can be found in the visualization folder)
 
 In the following sections, I will walk through the resulting visualizations, and provide an analysis of what those results reveal about patterns in relationships.
