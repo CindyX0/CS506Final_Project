@@ -161,6 +161,8 @@ This method allowed for a more balanced distribution of individuals into the thr
 
 **Visualizations for High v Low Classified Relationships**
 
+ Participants were grouped based on their responses to three key relationship metrics: satisfaction (RELSATIS), happiness (RELHAPPY), and how rewarding the relationship feels (RELREWAR). Those who scored 4 or higher on all three were labeled as having high satisfaction, while those scoring 2 or lower on any were considered to have low satisfaction.
+ 
 
 **1. 2d PCA Projcetion of High v Low Relationships**
 
@@ -192,7 +194,20 @@ This method allowed for a more balanced distribution of individuals into the thr
 
 
 
+
 Process:
+
+This analysis aims to explore behavioral differences between individuals in high versus low satisfaction relationships by using PCA (Principal Component Analysis) to reduce dimensionality for visualization. Participants were grouped based on their responses to three key relationship metrics: satisfaction (RELSATIS), happiness (RELHAPPY), and how rewarding the relationship feels (RELREWAR). Those who scored 4 or higher on all three were labeled as having high satisfaction, while those scoring 2 or lower on any were considered to have low satisfaction. Behavioral variables were then standardized, and PCA was applied to reduce them to two principal components, allowing the data to be visualized in two dimensions. This PCA projection helps identify whether distinct behavioral patterns exist between the two groups. In the resulting plot, each point represents an individual, and the color indicates their satisfaction group. The distribution of these points reveals how behaviors may cluster differently depending on relationship satisfaction, offering insights into which behavioral traits are associated with more fulfilling relationships. 
+To understand what influenced the PCA graph, I looked at which behaviors had the biggest impact on the new axes (PC1 and PC2) through the component loadings. The top 10 behaviors with the highest values on PC1 and PC2  are the ones that most strongly separate people in the graph. This helps to  see which behaviors matter most when telling apart high and low satisfaction relationships.
+
+
+
+
+
+
+
+
+
 
 
 
