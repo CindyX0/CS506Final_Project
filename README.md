@@ -151,7 +151,7 @@ This chart highlights a clear and consistent trend: as individuals report a high
 
 **Interactive Visualizations**
 
-<video controls src="Visualizations/Interactives/video of vuln.mov" title="Vulnerability Status Accross Various Adversities"></video>
+![Vulnerability Status accorss Various Adversities](Visualizations/Interactives/videoofvuln-ezgif.com-video-to-gif-converter.gif)
 
 
 
