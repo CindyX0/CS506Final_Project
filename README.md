@@ -159,18 +159,32 @@ A person was classified as having low vulnerability if they scored better than o
 This method allowed for a more balanced distribution of individuals into the three vulnerability levels based on their responses relative to the group median, rather than rigid cutoffs.
 
 
-**Visualizations for High v Low Relationships**
+**Visualizations for High v Low Classified Relationships**
 
 
 **1. 2d PCA Projcetion of High v Low Relationships**
 
 
+![PCA Projection for High v Low Classified Relationships(2d)](https://github.com/user-attachments/assets/1daded13-04bc-45e9-b7c1-babee9457058)
+
 
 **2. 3d PCA Projection of High v Low Relationships**
 
 
-**3. UMAP Projection of High v Low Relationships (2d, 3d, animation)**
+![PCA Projection for High v Low Classified Relationships(3)](https://github.com/user-attachments/assets/c2cc136d-dbde-467f-8a63-5c90e1b61d65)
 
+
+**3. UMAP Projection of High v Low  Classified Relationships (2d, 3d, animation)**
+
+
+![umap2d](https://github.com/user-attachments/assets/6efac921-2f5e-42fb-bb90-bfd944523307)
+
+
+
+![umpa3d](https://github.com/user-attachments/assets/33241816-c71f-493e-9464-c1e70e2dd3b5)
+
+
+![umap_3d_rotation3](https://github.com/user-attachments/assets/d7a0314d-27a5-41b3-bc55-cf859af64b24)
 
 
 **4. UMAP Projection Interactive: High v Low Relationships accross Features**
