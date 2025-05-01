@@ -192,17 +192,15 @@ This method allowed for a more balanced distribution of individuals into the thr
 **4. UMAP Projection Interactive: High v Low Relationships accross Features**
  (link to html in folders)
 
-![v4](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/critic.gif>)
+![alt text](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/critic.gif>) 
 
+![alt text](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/intimacy.gif>)
 
- ![v3](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/intimacy.gif>)
+ ![alt text](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/praisespouse.gif>) 
 
-
-  ![v2](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/praisespouse.gif>) 
-  
-
-  ![v1](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/relwarm.gif>)
-
+ ![alt text](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/relwarm.gif>) 
+ 
+ ![alt text](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/splove.gif>)
 
 
 
@@ -212,7 +210,13 @@ This analysis aims to explore behavioral differences between individuals in high
 To understand what influenced the PCA graph, I looked at which behaviors had the biggest impact on the new axes (PC1 and PC2) through the component loadings. The top 10 behaviors with the highest values on PC1 and PC2  are the ones that most strongly separate people in the graph. This helps to  see which behaviors matter most when telling apart high and low satisfaction relationships.
 
 
-UMAP  was addiitonally used to 
+UMAP was used to visualize the data in a way that captures more complex, non linear relationships between behaviors and relationship satisfaction. UMAP can reveal hidden clusters or groupings that aren't visible with straight-line methods. After scaling the features, UMAP reduced the high dimensional data into two dimensions for easier plotting. Each point on the scatter plot represents a person, colored by whether they reported high or low relationship satisfaction. The axes arent interpretable for umap, however plotting with the features accross can help identify behavior patterns.
+
+
+
+
+
+
 
 
 
