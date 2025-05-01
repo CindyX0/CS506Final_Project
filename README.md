@@ -114,13 +114,14 @@ Visualization #1: Relationship Satisfaction Accross Stress Types
 
 Visualization #2 Relationship Satisfaction by Perceptions of Relationship Quality
 
-![Visualization of Relationship Satisfaction by Perceptions of Relationship Quality](Visualizations/Visualization2.png)
+
+![Visualization of Relationship Satisfaction by Perceptions of Relationship Quality ](<Visualizations/Visualization #1- Relationship Satisfaction Accross Stress Types .png>)
 
 This line chart shows how different aspects of relationship quality relate to overall relationship satisfaction. In general, when people rate their relationships more positively like feeling loved, being able to confide in their partner, or thinking the relationship is rewarding, their satisfaction is higher. Most lines move upward as the response level increases, showing a strong link between better relationship experiences and greater satisfaction. This suggests that feeling supported and emotionally connected in a relationship strongly boosts satisfaction.
-
-
+ 
+ 
 Visualization #3: Mean Scores of Relationship Variables across Relationship Stress Levels
-![Mean Scores of Relationship Variables across Relationship Stress Levels](Visualizations/Visualization3.png)
+![Mean Scores of Relationship Variables across Relationship Stress Levels](Visualizations/Visualization3.png) 
 
 This bar chart shows how different aspects of relationship quality change as stress from a spouse increases. As stress levels go up from 1 to 5, scores for positive traits like relationship happiness, feeling loved, satisfaction, and being able to confide in your partner consistently go down. Meanwhile, negative experiences, such as bad treatment from the spouse, increase. This pattern suggests that higher stress from a spouse is linked to worse relationship experiences, and I highlight "bad treatment" from's ones spouse. Error bars show 95% confidence intervals, which means these trends are likely reliable.
 
