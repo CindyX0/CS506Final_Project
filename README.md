@@ -192,14 +192,22 @@ This method allowed for a more balanced distribution of individuals into the thr
 **4. UMAP Projection Interactive: High v Low Relationships accross Features**
  (link to html in folders)
 
+Critique Spouse 
 ![alt text](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/critic.gif>) 
+
+
+Intimacy
 
 ![alt text](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/intimacy.gif>)
 
+Praise Spouse
  ![alt text](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/praisespouse.gif>) 
 
+Relationship Warm
  ![alt text](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/relwarm.gif>) 
- 
+
+
+Spouse Loving 
  ![alt text](<Visualizations/Vis Hi_Low_Sat/interactives/making_gifs/splove.gif>)
 
 
