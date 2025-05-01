@@ -59,6 +59,15 @@ This round primarily focused on traits and behaviors that lead to successful rel
 
 #Final Report
 
+** Reproducability
+
+1 download the dataset named '2Data.csv'
+2 'make setup' to create the virtual environment and installl depenednncies
+3 'make run' to install the project notebbok
+4 make freeze- if you want to modify the environment and epdate the requirements.txt
+
+
+
 Overall Data Cleaning & Preprocessing
 
 ** 1 Overall Data Cleaning & Preprocessing **
@@ -82,6 +91,52 @@ These visualizations included:
 -A line chart tracking average relationship satisfaction scores across various relationship quality metrics.
 These early visuals provided useful context and helped clarify which variables might be worth investigating more rigorously in the modeling phase.
 
+** Model Creation and Proccess**
+There are  4 classical models that were created, I will walk through how each model was created in detail.
 
-*** Final Visualizations and Modeling **
-In the following sections, I will walk through how each final visualization was developed in detail, including the decisions behind their design and the insights they offer. I will also outline how I created different classical models, present the resulting visualizations, and provide an analysis of what those results reveal about patterns in relationships.
+
+
+
+
+
+
+*** Final Visualizations and Analysis 
+(each visualization, interactive visualization, and gif can be found in the visualization folder)
+
+In the following sections, I will walk throughthe  resulting visualizations, and provide an analysis of what those results reveal about patterns in relationships.
+
+Visualization #1: Relationship Satisfaction Accross Stress Types 
+
+![Visualization of Relationship Satisfaction Across Stress Types](Visualizations/Visualization1.png)
+
+ The bar plot illustrates how relationship satisfaction varies across different stress types and levels. Overall, there is a clear pattern showing that as stress levels increase, relationship satisfaction tends to decline. This trend is most pronounced for stress related to a spouse or partner, where satisfaction drops sharply from high to low as stress intensifies. This suggests that interpersonal stress within the relationship itself is particularly damaging to perceived relationship quality. In contrast, other stress types show marginal and less severe decreases in satisfaction.
+
+
+Visualization #2 Relationship Satisfaction by Perceptions of Relationship Quality
+
+![Visualization of Relationship Satisfaction by Perceptions of Relationship Quality](Visualizations/Visualization2.png)
+
+This line chart shows how different aspects of relationship quality relate to overall relationship satisfaction. In general, when people rate their relationships more positively like feeling loved, being able to confide in their partner, or thinking the relationship is rewarding, their satisfaction is higher. Most lines move upward as the response level increases, showing a strong link between better relationship experiences and greater satisfaction. This suggests that feeling supported and emotionally connected in a relationship strongly boosts satisfaction.
+
+
+Visualization #3: Mean Scores of Relationship Variables across Relationship Stress Levels
+![Mean Scores of Relationship Variables across Relationship Stress Levels](Visualizations/Visualization3.png)
+
+This bar chart shows how different aspects of relationship quality change as stress from a spouse increases. As stress levels go up from 1 to 5, scores for positive traits like relationship happiness, feeling loved, satisfaction, and being able to confide in your partner consistently go down. Meanwhile, negative experiences, such as bad treatment from the spouse, increase. This pattern suggests that higher stress from a spouse is linked to worse relationship experiences, and I highlight "bad treatment" from's ones spouse. Error bars show 95% confidence intervals, which means these trends are likely reliable.
+
+
+Visualization # 4 Mean Scores of Confiding in Spouse Accross Relationship Behaviors
+
+![Mean Scores of Confiding in Spouse Across Relationship Behaviors](Visualizations/Visualization4.png)
+
+This chart highlights a clear and consistent trend: as individuals report a higher ability to confide in their spouse, they also tend to experience stronger relationship behaviors and emotional well being. Each bar group shows that higher levels of confiding are associated with increased mean scores in four key areas: being healthy together, listening to a spouse, trying to understand a spouse, and emotional health within the past 24 hours.  The steady rise in scores, especially in listening and understanding suggests that the ability to confide in a spouse is strongly associated with these other behavioral aspects.
+
+
+
+
+
+
+
+
+
+
