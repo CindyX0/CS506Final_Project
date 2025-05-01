@@ -153,19 +153,59 @@ Rewardingness  Prediction Residuals
  
 
 Satisfaction Prediction Residuals
-  ![alt text](<Visualizations/Model 1 Visualizations/model1residualsatisfaction.png>)
+
+![alt text](<Visualizations/Model 1 Visualizations/model1residualsatisfaction.png>)
 
 
-These residuals show how close the models  predicitons and actual resilts were.
+These residuals show how close the models  predicitons and actual results were.
+
+
+**Model 2: K-means Clustering to uncover patterns in high performing relationships**
+
+Process:
+Kmeans clustering is used to  explore subgroups within individuals who report high levels of relationship satisfaction, happiness, and reward. First the dataset is filtered  to include only participants scoring 4 or above on all three of those relationship quality measures ( happiness, satisfaction, rewardingness). The data is standardized to ensure all features contribute equally. To determine the optimal number of clusters, the elbow method is used. Based on the plot, the final number of clusters was set to 5. KMeans clustering is then applied to group individuals into behavioral clusters.
+
+To visualize these high dimensional clusters PCA is used to reduce the data to two components. These PCA transformed coordinates are then plotted, with cluster centers marked. The axes of the PCA plot are interpreted by examining the top contributing features to each principal component. For instance, the first component (PC1) is strongly influenced by variables like “SPSLOVED” and “INTIMACY,” which reflect emotional intimacy and affection. The second component (PC2) is shaped by features such as “LISTEN” and “UNDERSTD,” representing communication and understanding. This process helps give meaningful interpretation to abstract dimensions and supports qualitative labeling of the clusters in the PCA plot.
+
+
+![cluster ](<Visualizations/Model 2 Visualizations/kmeansclusteringhigroup.png>)
+
+
+
+**Labeling Dominant Traits in Clusters**
+
+Meaningful labels are assigned to clusters based on patterns in different types of relationship behaviors in those clusters. First, three behavior groups are defined: Affectionate (like feeling loved or close), Good Communicators (like listening and sharing feelings), and Problem Solvers (like helping with issues). For each group  the overall average and standard deviation across all clusters is calculated.
+
+A dominance threshold for each group is set, if a cluster's behavior average exceeds this threshold, that's its behavior group is considered “dominant” in that cluster. For each cluster, it checks which behavioral traits exceed the threshold and assigns a name based on the most dominant ones. If no group strongly stands out, the cluster gets a milder label based on its top 1–2 traits.
+
+
+Finally,  these labels  are mapped back to the main dataset so each individual in the high satisfaction group is tagged with a descriptive cluster label. 
+
+
+![ clusterlabeled](<Visualizations/Model 2 Visualizations/labeldcusters.png>)
 
 
 
 
+![ avgpclust](<Visualizations/Model 2 Visualizations/avgrelclusters.png>)
 
 
 
+**Fuzzy Clustering and  Assignmnets:**
+
+The siloutte Score is pretty low for this model ( 0.054), but honestly its understandable considering we are working with behavioral data, especially for a target group that includes alot of overlapping beahviors
+So fuzzy clustering is used to make soft assigmnets aka more flexible assignments to the data  of the data.
+
+Using fuzzy c-means, each behavior is allowed to belong to multiple clusters to varying degrees, rather than being assigned to just one. The data is first standardized and transposed so that behaviors are treated as the items being clustered. The fuzzy c-means algorithm is then applied with five clusters, resulting in a membership matrix that shows the degree to which each behavior belongs to each cluster. A histogram is plotted to display the distribution of the highest membership strengths, offering insight into how confidently behaviors are grouped. Finally, the results are visualized using PCA to reduce dimensions, where each behavior is plotted with color indicating its dominant cluster and transparency representing confidence.
+
+Histogram
+
+![ hist](<Visualizations/Model 2 Visualizations/fuzzy confidencepng.png>)
 
 
+Fuzzy
+
+![ fuzz](<Visualizations/Model 2 Visualizations/fuzzyclusteringpca.png>)
 
 
 
