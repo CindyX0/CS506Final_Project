@@ -146,6 +146,13 @@ This bar chart shows how different aspects of relationship quality change as str
 ![Visualization # 4 Mean Scores of Confidinfg in Spouse Accross Relationship Behaviors ](https://github.com/user-attachments/assets/a1c2be3e-9ad3-4256-9913-383b04bef756)
 
 This chart highlights a clear and consistent trend: as individuals report a higher ability to confide in their spouse, they also tend to experience stronger relationship behaviors and emotional well being. Each bar group shows that higher levels of confiding are associated with increased mean scores in four key areas: being healthy together, listening to a spouse, trying to understand a spouse, and emotional health within the past 24 hours.  The steady rise in scores, especially in listening and understanding suggests that the ability to confide in a spouse is strongly associated with these other behavioral aspects. 
+
+
+
+**Interactive Visualizations**
+
+
+
  
 
 
