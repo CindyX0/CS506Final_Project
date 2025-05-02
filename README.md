@@ -71,6 +71,8 @@ This round primarily focused on traits and behaviors that lead to successful rel
 4. run 'make freeze'- if you want to modify the environment and update the requirements.txt
 
 
+Link to video!: 
+https://youtu.be/WdvSNMpPAjo
 
 **Overall Data Cleaning & Preprocessing**
 
