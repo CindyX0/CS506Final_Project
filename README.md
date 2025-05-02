@@ -160,7 +160,7 @@ Satisfaction Prediction Residuals
 These residuals show how close the models  predicitons and actual results were.
 
 
-**Model 2: K-means Clustering to uncover patterns in high performing relationships**
+**Model #2: K-means Clustering to uncover patterns in high performing relationships**
 
 Process:
 Kmeans clustering is used to  explore subgroups within individuals who report high levels of relationship satisfaction, happiness, and reward. First the dataset is filtered  to include only participants scoring 4 or above on all three of those relationship quality measures ( happiness, satisfaction, rewardingness). The data is standardized to ensure all features contribute equally. To determine the optimal number of clusters, the elbow method is used. Based on the plot, the final number of clusters was set to 5. KMeans clustering is then applied to group individuals into behavioral clusters.
@@ -207,6 +207,26 @@ Fuzzy
 
 ![ fuzz](<Visualizations/Model 2 Visualizations/fuzzyclusteringpca.png>)
 
+
+**Model #3 Decision Trees to  Differentiate Low and High Traits( Satisfaction, Happiness, And Rewardingness)**
+
+(pdf of model in visualization folder for better viewership)
+
+
+Process:
+This model uses a decision tree to classify people into high or low relationship satisfaction groups based on their relationship behaviors. First, people were labeled as "high satisfaction" if they rated their relationship as 4 or higher on satisfaction, happiness, and reward, and "low satisfaction" if they rated 2 or lower on any of those. People in between were removed to keep the results clear. I must preface that there were way more people labeled as high( 6460) as opposed to low(344)
+
+
+Next, behaviors were used as features to train the model. A grid search was used to test different settings (like how deep the tree should be) to find the best version of the model. Instead of measuring just accuracy, the model was tuned to focus on recall, how well it catches people in the low satisfaction group because of the overwhelming amount of high satisfaciton relationships, I felt that prioritizing this would be better.
+
+Classification report was used to see the success metrics of the model.
+The model achieved a high overall accuracy of 98%. It performed  well for those in high satisfaction relationships, with a precision of 0.98, a perfect recall of 1.00, and an f1-score of 0.99. This indicates that the model is very effective at recognizing individuals who report strong relationship satisfaction, happiness, and reward. For the low satisfaction group, the model also demonstrated high precision at 0.97, meaning when it predicts someone has low satisfaction, it is typically correct. However, the recall for this group drops to 0.65, showing the model misses about 35% of people who actually belong to this category. The corresponding f1-score of 0.78 reflects this discrepancy. The confusion matrix reinforces these observations: of the 103 individuals truly experiencing low satisfaction, 67 were correctly identified, while 36 were misclassified as having high satisfaction.
+
+
+Analysis: 
+The decision tree reveals the most important behavioral factors that distinguish between individuals with high versus low relationship satisfaction. The top splits in the tree focus on core relational behaviors such as listening, praising one's partner, feeling loved, and understanding emotions. These early splits suggest that when individuals report that their partner listens to them, shows appreciation, and expresses love, they are much more likely to fall into the high satisfaction group. Conversely, behaviors like withholding thoughts (not sharing), feeling unloved, or being criticized by a partner frequently appear in branches that lead to low satisfaction classifications.
+
+As the tree progresses, it continues to split on emotional connection and communication based traits, reinforcing their central role in predicting relationship quality. Some splits involve more nuanced or less definitive behaviors such as sexual pressure or moderate listening levels where the classification becomes more mixed, indicated by higher Gini impurity. Overall, the tree’s structure emphasizes that open communication, emotional support, and affectionate behaviors are consistently linked to positive relationship outcomes, while withdrawal, criticism, and emotional neglect are strong signals of negative relationship outcomes
 
 
 **Visualizations and Analysis** 
