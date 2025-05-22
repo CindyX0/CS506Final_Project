@@ -1,4 +1,5 @@
-# CS506Final_Project
+# Determinants of Marital Stability and Satisfaction Through Behavioral and External Predictors
+
 Link to Dataset: https://www.icpsr.umich.edu/web/NACDA/studies/37404/variables?start=850&sort=VARLABEL_SORT%20asc&STUDYQ=37404&EXTERNAL_FLAG=1&ARCHIVE=NACDA&rows=50# 
 
 ## Description of the project.
