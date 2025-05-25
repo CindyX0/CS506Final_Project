@@ -103,7 +103,7 @@ These visualizations included:
 -A line chart tracking average relationship satisfaction scores across various relationship quality metrics.
 These early visuals provided useful context and helped clarify which variables might be worth investigating more rigorously in the modeling phase.
 
-**Model Creation and Proccess**
+**Model Creation and Process**
 
 There are  4 classical models that were created, I will walk through how each model was created in detail and the visualizations for each model
 
@@ -113,7 +113,7 @@ Process:
 
 This model predicts  three key relationship satisfaction scores: RELSATIS, RELHAPPY, and RELREWAR using a Random Forest classifier. First, the features (behaviors) are separated from the target variables. Missing values in the features are filled using the mean, while missing values in the targets are filled using the most frequent value, since the targets are categorical. The data is then split into training and test sets.
 
-To improve model performance, hyperparameter tuning is done using GridSearchCV. The tuning is guided by precision score, meaning the model was optimized to make as few false positives( predicting low rel as high) as possible since there are more positievly scored relationships than negative ones in the data. The best parameters from this grid search are used to build a MultiOutputClassifier, which allows the Random Forest to predict multiple targets at once.
+To improve model performance, hyperparameter tuning is done using GridSearchCV. The tuning is guided by precision score, meaning the model was optimized to make as few false positives( predicting low rel as high) as possible since there are more positively scored relationships than negative ones in the data. The best parameters from this grid search are used to build a MultiOutputClassifier, which allows the Random Forest to predict multiple targets at once.
 
 The primary evaluation tools included precision, accuracy, Mean Squared Error (MSE), and R-squared .
 
@@ -121,7 +121,7 @@ Precision and Accuracy Scores:
 
 From the classification report, the model showed solid precision and accuracy for all three satisfaction outcomes
 
-The model demonstrated strong performance across all three target variables: relationship satisfaction (RELSATIS), relationship happiness (RELHAPPY), and relationship reward (RELREWAR). For RELSATIS, the model achieved a high precision of 0.99 and an accuracy of 98.4%, showing its ability to consistently make correct predictions across different satisfaction levels. Similarly, for RELREWAR, the model maintained a high level of performance with a precision of 0.99 and accuracy of 97.8%. The performance for RELHAPPY, while still strong, was slightly lower, with a precision of 0.98 and an accuracy of 95.1%.
+The model demonstrated strong performance across all three target variables: relationship satisfaction (RELSATIS), relationship happiness (RELHAPPY), and relationship reward (RELREWAR). For RELSATIS, the model achieved a high precision of 0.99 and an accuracy of 98.4%, showing its ability to consistently make correct predictions across different satisfaction levels. Similarly, for RELREWAR, the model maintained a high level of performance with a precision of 0.99 and an accuracy of 97.8%. The performance for RELHAPPY, while still strong, was slightly lower, with a precision of 0.98 and an accuracy of 95.1%.
 
 Cross-Validation Results:
 To validate the model’s consistency and generalizability, 5-fold cross-validation was applied to each satisfaction metric. The average precision scores across folds were:
@@ -135,12 +135,12 @@ RELREWAR: ~0.62
 
 After training the model, its performance is evaluated for each satisfaction variable using accuracy and a classification report. Finally, the most important features  used in making predictions are extracted and the top 30 are visualized using a bar plot.
 
-**Top contributing Features Visualization**
+**Top Contributing Features Visualization**
 
 ![alt text](<Visualizations/Model 1 Visualizations/topcontributingfeaturespng.png>)
 
 
-Analysis: Behaviors like your spouse being lovign and caring, feeling like you can confide in your relationship, stress level with your spose, sex satisfaciton, and argument frequncy shed insight int predicitng these targets
+Analysis: Behaviors like your spouse being loving and caring, feeling like you can confide in your relationship, stress level with your spose, sex satisfaciton, and argument frequncy shed insight int predicitng these targets
 
 
 **Model Residuals Visualization**
@@ -160,7 +160,7 @@ Satisfaction Prediction Residuals
 ![alt text](<Visualizations/Model 1 Visualizations/model1residualsatisfaction.png>)
 
 
-These residuals show how close the models  predicitons and actual results were.
+These residuals show how close the models  predictions and actual results were.
 
 
 **Model #2: K-means Clustering to uncover patterns in high performing relationships**
@@ -194,10 +194,10 @@ Finally,  these labels  are mapped back to the main dataset so each individual i
 
 
 
-**Fuzzy Clustering and  Assignmnets:**
+**Fuzzy Clustering and  Assignments:**
 
-The siloutte Score is pretty low for this model ( 0.054), but honestly its understandable considering we are working with behavioral data, especially for a target group that includes alot of overlapping beahviors
-So fuzzy clustering is used to make soft assigmnets aka more flexible assignments to the data  of the data.
+The silhouette Score is pretty low for this model ( 0.054), but honestly, it's understandable considering we are working with behavioral data, especially for a target group that includes alot of overlapping behaviors
+So fuzzy clustering is used to make soft assignments aka more flexible assignments to the data  of the data.
 
 Using fuzzy c-means, each behavior is allowed to belong to multiple clusters to varying degrees, rather than being assigned to just one. The data is first standardized and transposed so that behaviors are treated as the items being clustered. The fuzzy c-means algorithm is then applied with five clusters, resulting in a membership matrix that shows the degree to which each behavior belongs to each cluster. A histogram is plotted to display the distribution of the highest membership strengths, offering insight into how confidently behaviors are grouped. Finally, the results are visualized using PCA to reduce dimensions, where each behavior is plotted with color indicating its dominant cluster and transparency representing confidence.
 
@@ -220,9 +220,9 @@ Process:
 This model uses a decision tree to classify people into high or low relationship satisfaction groups based on their relationship behaviors. First, people were labeled as "high satisfaction" if they rated their relationship as 4 or higher on satisfaction, happiness, and reward, and "low satisfaction" if they rated 2 or lower on any of those. People in between were removed to keep the results clear. I must preface that there were way more people labeled as high( 6460) as opposed to low(344)
 
 
-Next, behaviors were used as features to train the model. A grid search was used to test different settings (like how deep the tree should be) to find the best version of the model. Instead of measuring just accuracy, the model was tuned to focus on recall, how well it catches people in the low satisfaction group because of the overwhelming amount of high satisfaciton relationships, I felt that prioritizing this would be better.
+Next, behaviors were used as features to train the model. A grid search was used to test different settings (like how deep the tree should be) to find the best version of the model. Instead of measuring just accuracy, the model was tuned to focus on recall, how well it catches people in the low satisfaction group because of the overwhelming amount of high satisfaction relationships, I felt that prioritizing this would be better.
 
-Classification report was used to see the success metrics of the model.
+A classification report was used to see the success metrics of the model.
 The model achieved a high overall accuracy of 98%. It performed  well for those in high satisfaction relationships, with a precision of 0.98, a perfect recall of 1.00, and an f1-score of 0.99. This indicates that the model is very effective at recognizing individuals who report strong relationship satisfaction, happiness, and reward. For the low satisfaction group, the model also demonstrated high precision at 0.97, meaning when it predicts someone has low satisfaction, it is typically correct. However, the recall for this group drops to 0.65, showing the model misses about 35% of people who actually belong to this category. The corresponding f1-score of 0.78 reflects this discrepancy. The confusion matrix reinforces these observations: of the 103 individuals truly experiencing low satisfaction, 67 were correctly identified, while 36 were misclassified as having high satisfaction.
 
 
@@ -234,9 +234,9 @@ As the tree progresses, it continues to split on emotional connection and commun
 
 **Visualizations and Analysis** 
 
-(each visualization, interactive visualization, and gif can be found in the visualization folder)
+(Each visualization, interactive visualization, and gif can be found in the visualization folder)
 
-In the following sections, I will walk through the resulting visualizations, and provide an analysis of what those results reveal about patterns in relationships.
+In the following sections, I will walk through the resulting visualizations and provide an analysis of what those results reveal about patterns in relationships.
 
 **Visualization #1: Relationship Satisfaction Accross Stress Types**
 
@@ -260,28 +260,28 @@ This line chart shows how different aspects of relationship quality relate to ov
 
 
 
-This bar chart shows how different aspects of relationship quality change as stress from a spouse increases. As stress levels go up from 1 to 5, scores for positive traits like relationship happiness, feeling loved, satisfaction, and being able to confide in your partner consistently go down. Meanwhile, negative experiences, such as bad treatment from the spouse, increase. This pattern suggests that higher stress from a spouse is linked to worse relationship experiences, and I highlight "bad treatment" from's ones spouse. Error bars show 95% confidence intervals, which means these trends are likely reliable.
+This bar chart shows how different aspects of relationship quality change as stress from a spouse increases. As stress levels go up from 1 to 5, scores for positive traits like relationship happiness, feeling loved, satisfaction, and being able to confide in your partner consistently go down. Meanwhile, negative experiences, such as bad treatment from the spouse, increase. This pattern suggests that higher stress from a spouse is linked to worse relationship experiences, and I highlight "bad treatment" from ones' spouse. Error bars show 95% confidence intervals, which means these trends are likely reliable.
 
 
 **Visualization # 4 Mean Scores of Confiding in Spouse Accross Relationship Behaviors**
 
 ![Visualization # 4 Mean Scores of Confidinfg in Spouse Accross Relationship Behaviors ](https://github.com/user-attachments/assets/a1c2be3e-9ad3-4256-9913-383b04bef756)
 
-This chart highlights a clear and consistent trend: as individuals report a higher ability to confide in their spouse, they also tend to experience stronger relationship behaviors and emotional well being. Each bar group shows that higher levels of confiding are associated with increased mean scores in four key areas: being healthy together, listening to a spouse, trying to understand a spouse, and emotional health within the past 24 hours.  The steady rise in scores, especially in listening and understanding suggests that the ability to confide in a spouse is strongly associated with these other behavioral aspects. 
+This chart highlights a clear and consistent trend: as individuals report a higher ability to confide in their spouse, they also tend to experience stronger relationship behaviors and emotional well being. Each bar group shows that higher levels of confiding are associated with increased mean scores in four key areas: being healthy together, listening to a spouse, trying to understand a spouse, and emotional health within the past 24 hours.  The steady rise in scores, especially in listening and understanding, suggests that the ability to confide in a spouse is strongly associated with these other behavioral aspects. 
 
 
 
 **Interactive Visualizations**
 
-**Intercative Visualization #1:  Vulnerablity Status accross Various Adversities**
+**Interactive Visualization #1:  Vulnerability Status accross Various Adversities**
 
 ![Vulnerability Status accorss Various Adversities](Visualizations/Interactives/videoofvuln-ezgif.com-video-to-gif-converter.gif)
 
-This visual is suppoused to shed light on the proportions of hi, low, and meduim vulnearble coded people in relationshhips. It's supposued to see if previous adverse experiences affected people's vunlenerabliites in relationships. We can see the trends in the vulnerabilty groups for people have expereicned or havent.
+This visual is supposed to shed light on the proportions of hi, low, and medium vulnerable coded people in relationships. It's supposed to see if previous adverse experiences affected people's vulnerabilities in relationships. We can see the trends in the vulnerability groups for people have experienced or havent.
 
 Process: 
 
-The process of calculating low, medium, and high vulnerability status is based on responses to five relationship related variables: RELCONFI (ability to  confide in relationship ), SPLISTEN (partner listening), RSHWNEED (respondent shows needs in replationship), RKPFEEL (respondent keeps feleins to self ), and RCHANGE (respondent changes themeseves for partner ). Then, the median of each variable was calculated to serve as a benchmark for categorizing vulnerability levels. Variables were grouped into two types: positively oriented (where higher scores indicate better relationship functioning: RELCONFI, SPLISTEN, RSHWNEED) and negatively oriented (where lower scores are better: RKPFEEL, RCHANGE).
+The process of calculating low, medium, and high vulnerability status is based on responses to five relationship-related variables: RELCONFI (ability to  confide in relationship ), SPLISTEN (partner listening), RSHWNEED (respondent shows needs in relationship), RKPFEEL (respondent keeps feelings to self ), and RCHANGE (respondent changes themeseves for partner ). Then, the median of each variable was calculated to serve as a benchmark for categorizing vulnerability levels. Variables were grouped into two types: positively oriented (where higher scores indicate better relationship functioning: RELCONFI, SPLISTEN, RSHWNEED) and negatively oriented (where lower scores are better: RKPFEEL, RCHANGE).
 A person was classified as having low vulnerability if they scored better than or equal to the median on all positive variables and lower than or equal to the median on all negative ones. Conversely, a person was classified as high vulnerability if they scored worse than or equal to the median on all positive variables and higher than or equal to the median on all negative ones. Anyone who didn’t clearly fit into the high or low group was categorized as medium vulnerability.
 This method allowed for a more balanced distribution of individuals into the three vulnerability levels based on their responses relative to the group median, rather than rigid cutoffs.
 
@@ -291,7 +291,7 @@ This method allowed for a more balanced distribution of individuals into the thr
  Participants were grouped based on their responses to three key relationship metrics: satisfaction (RELSATIS), happiness (RELHAPPY), and how rewarding the relationship feels (RELREWAR). Those who scored 4 or higher on all three were labeled as having high satisfaction, while those scoring 2 or lower on any were considered to have low satisfaction.
  
 
-**1. 2d PCA Projcetion of High v Low Relationships**
+**1. 2d PCA Projection of High v Low Relationships**
 
 
 ![PCA Projection for High v Low Classified Relationships(2d)](https://github.com/user-attachments/assets/1daded13-04bc-45e9-b7c1-babee9457058)
