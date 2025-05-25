@@ -24,7 +24,7 @@ Creating Subsets of Data for Preliminary Visualizations
 My visualizations for correlated features are not yet complete, nor do they explore as many categories as I would like. Below are the current visualizations and the methods used to create them:
 1.Mean of Emotional Self-Rated Health over the past 24 hours vs. Mean Physical Self-Rated Health over the past 24 hours (Bar Chart)
 
-2.Relationship Satisfaction across Different Stress Variables (Stress Friends, Stress Family, Stress Spouse, Stress Work, Stress Finances) – A separate box plot for each variable. I also created a grouped bar chart to present similar information differently. I wanted to experiment with different ways of representing the same data to find the most easily understandable format.
+2. Relationship Satisfaction across Different Stress Variables (Stress Friends, Stress Family, Stress Spouse, Stress Work, Stress Finances) – A separate box plot for each variable. I also created a grouped bar chart to present similar information differently. I wanted to experiment with different ways of representing the same data to find the most easily understandable format.
 
 3.Line Graph of Average Relationship Satisfaction by These Behaviors: spouse listens, relationship happiness, feeling like you can confide in a partner, relationship rewarding, and respondent feeling like their spouse loves and cares.
 
@@ -61,7 +61,7 @@ This round primarily focused on traits and behaviors that lead to successful rel
 ---------------------------------------------------------------
 # Final Report
 
-**Reproducability**
+**Reproducibility**
 
 1. download the dataset named '2Data.csv'
 
